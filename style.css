@@ -1,16 +1,66 @@
 body {
   font-family: Inter, system-ui, sans-serif;
-  background-color: #f8fbff;
+  background-color: #ffffff;
 }
 
-.hero-logo {
+.hero-logo,
+.main-logo {
   max-width: 220px;
+}
+
+.site-branding {
+  padding: 1rem 0;
+}
+
+.main-logo {
+  display: block;
+  width: 180px;
+  height: auto;
 }
 
 .hero-copy {
   background-color: rgba(13, 110, 253, 0.08);
   padding: 2rem;
   border-radius: 1.75rem;
+}
+
+header,
+section {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+.carousel-section .border {
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+.site-footer {
+  background-color: #ffffff;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.footer-links a {
+  color: #475569;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  gap: 1rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  padding-bottom: 1rem;
+}
+
+.footer-legal {
+  margin-bottom: 0;
+  line-height: 1.8;
 }
 
 .hero-title-row {
